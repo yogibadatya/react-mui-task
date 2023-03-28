@@ -1,0 +1,39 @@
+.wrapper{
+    margin: 1rem 1.5rem;
+    background-color: #b51818;
+    /* padding: 2px 11px; */
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    color: #f5e9e9;
+    font-weight: 500;
+    padding: 1rem;
+
+}
+.text{
+    font-size: 1rem;
+}
+.leftItem{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 0.5rem;
+}
+.rightItem{
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    gap: 10px
+}
+.link{
+    cursor: pointer;
+    
+}
+.link:hover{
+    color:gainsboro;
+}
